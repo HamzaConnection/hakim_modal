@@ -10,7 +10,7 @@ body {
 .btn-show-modal {
   background-color: #f44336;
   cursor: pointer;
-  font-size: 10rem;
+  font-size: 5rem;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -19,7 +19,7 @@ body {
 }
 
 .overlay {
-  display: none;
+  display: block;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 50%;
@@ -34,6 +34,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 2rem;
 
   margin: auto;
   width: 60%;
