@@ -18,8 +18,8 @@ body {
   border-radius: 10px;
 }
 
-/* To center everything in the middle of the screen display: none;*/
 .overlay {
+  display: none;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 50%;
